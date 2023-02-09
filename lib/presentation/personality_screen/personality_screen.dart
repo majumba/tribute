@@ -1,11 +1,11 @@
 import 'controller/personality_controller.dart';
 import 'package:flutter/material.dart';
-import 'package:steve_s_application5/core/app_export.dart';
-import 'package:steve_s_application5/widgets/app_bar/appbar_title.dart';
-import 'package:steve_s_application5/widgets/app_bar/custom_app_bar.dart';
-import 'package:steve_s_application5/widgets/custom_button.dart';
-import 'package:steve_s_application5/widgets/custom_icon_button.dart';
-import 'package:steve_s_application5/widgets/custom_text_form_field.dart';
+import 'package:tribute/core/app_export.dart';
+import 'package:tribute/widgets/app_bar/appbar_title.dart';
+import 'package:tribute/widgets/app_bar/custom_app_bar.dart';
+import 'package:tribute/widgets/custom_button.dart';
+import 'package:tribute/widgets/custom_icon_button.dart';
+import 'package:tribute/widgets/custom_text_form_field.dart';
 
 class PersonalityScreen extends GetWidget<PersonalityController> {
   @override

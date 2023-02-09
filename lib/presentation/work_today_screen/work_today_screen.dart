@@ -2,9 +2,9 @@ import '../work_today_screen/widgets/work_today_item_widget.dart';
 import 'controller/work_today_controller.dart';
 import 'models/work_today_item_model.dart';
 import 'package:flutter/material.dart';
-import 'package:steve_s_application5/core/app_export.dart';
-import 'package:steve_s_application5/widgets/custom_button.dart';
-import 'package:steve_s_application5/widgets/custom_icon_button.dart';
+import 'package:tribute/core/app_export.dart';
+import 'package:tribute/widgets/custom_button.dart';
+import 'package:tribute/widgets/custom_icon_button.dart';
 
 class WorkTodayScreen extends GetWidget<WorkTodayController> {
   @override

@@ -1,5 +1,5 @@
-import 'package:steve_s_application5/core/app_export.dart';
-import 'package:steve_s_application5/presentation/work_today_screen/models/work_today_model.dart';
+import 'package:tribute/core/app_export.dart';
+import 'package:tribute/presentation/work_today_screen/models/work_today_model.dart';
 
 class WorkTodayController extends GetxController {
   Rx<WorkTodayModel> workTodayModelObj = WorkTodayModel().obs;

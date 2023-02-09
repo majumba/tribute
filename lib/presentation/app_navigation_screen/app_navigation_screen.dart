@@ -1,6 +1,6 @@
 import 'controller/app_navigation_controller.dart';
 import 'package:flutter/material.dart';
-import 'package:steve_s_application5/core/app_export.dart';
+import 'package:tribute/core/app_export.dart';
 
 class AppNavigationScreen extends GetWidget<AppNavigationController> {
   @override
@@ -84,51 +84,6 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
                                                                           10),
                                                               child: Text(
                                                                   "lbl_adacana"
-                                                                      .tr,
-                                                                  overflow:
-                                                                      TextOverflow
-                                                                          .ellipsis,
-                                                                  textAlign:
-                                                                      TextAlign
-                                                                          .center,
-                                                                  style: AppStyle
-                                                                      .txtRobotoRegular20))),
-                                                      Container(
-                                                          height:
-                                                              getVerticalSize(
-                                                                  1.00),
-                                                          width: size.width,
-                                                          margin:
-                                                              getMargin(top: 5),
-                                                          decoration: BoxDecoration(
-                                                              color: ColorConstant
-                                                                  .bluegray400))
-                                                    ]))),
-                                        GestureDetector(
-                                            onTap: () {
-                                              onTapLoginorSignUp();
-                                            },
-                                            child: Container(
-                                                width: size.width,
-                                                decoration:
-                                                    AppDecoration.fillWhiteA700,
-                                                child: Column(
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment.start,
-                                                    children: [
-                                                      Align(
-                                                          alignment: Alignment
-                                                              .centerLeft,
-                                                          child: Padding(
-                                                              padding:
-                                                                  getPadding(
-                                                                      left: 20,
-                                                                      top: 10,
-                                                                      right: 20,
-                                                                      bottom:
-                                                                          10),
-                                                              child: Text(
-                                                                  "lbl_login_or_signup"
                                                                       .tr,
                                                                   overflow:
                                                                       TextOverflow
@@ -604,10 +559,6 @@ class AppNavigationScreen extends GetWidget<AppNavigationController> {
 
   onTapAdacana() {
     Get.toNamed(AppRoutes.adacanaScreen);
-  }
-
-  onTapLoginorSignUp() {
-    Get.toNamed(AppRoutes.loginOrSignupScreen);
   }
 
   onTapSignUp() {

@@ -1,11 +1,11 @@
 import 'controller/forgot_password_controller.dart';
 import 'package:flutter/material.dart';
-import 'package:steve_s_application5/core/app_export.dart';
-import 'package:steve_s_application5/widgets/app_bar/appbar_stack.dart';
-import 'package:steve_s_application5/widgets/app_bar/appbar_title.dart';
-import 'package:steve_s_application5/widgets/app_bar/custom_app_bar.dart';
-import 'package:steve_s_application5/widgets/custom_button.dart';
-import 'package:steve_s_application5/widgets/custom_text_form_field.dart';
+import 'package:tribute/core/app_export.dart';
+import 'package:tribute/widgets/app_bar/appbar_stack.dart';
+import 'package:tribute/widgets/app_bar/appbar_title.dart';
+import 'package:tribute/widgets/app_bar/custom_app_bar.dart';
+import 'package:tribute/widgets/custom_button.dart';
+import 'package:tribute/widgets/custom_text_form_field.dart';
 
 class ForgotPasswordScreen extends GetWidget<ForgotPasswordController> {
   @override
@@ -84,8 +84,9 @@ class ForgotPasswordScreen extends GetWidget<ForgotPasswordController> {
                           child: Text("msg_lorem_ipsum_dol".tr,
                               maxLines: null,
                               textAlign: TextAlign.left,
-                              style: AppStyle.txtPoppinsRegular12.copyWith(
-                                  letterSpacing: getHorizontalSize(0.12)))),
+                              style: AppStyle.txtPoppinsRegular12Gray9007e
+                                  .copyWith(
+                                      letterSpacing: getHorizontalSize(0.12)))),
                       CustomButton(
                           height: 60,
                           width: 311,

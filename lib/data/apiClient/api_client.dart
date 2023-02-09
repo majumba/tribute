@@ -1,3 +1,3 @@
-import 'package:steve_s_application5/core/app_export.dart';
+import 'package:tribute/core/app_export.dart';
 
 class ApiClient extends GetConnect {}

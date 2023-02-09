@@ -66,7 +66,6 @@ final Map<String, String> enUs = {
   "lbl_alcanasatre": "Alcanasatre",
   "lbl_e_mail2": "E-mail",
   "lbl_forgot_password": "Forgot Password",
-  "lbl_login_or_signup": "Login or SignUp",
   "msg_our_community_i3":
       "Our community is always there 24 hours if you need it, don't hesitate to join",
   "msg_our_community_i2":

@@ -1,5 +1,5 @@
-import 'package:steve_s_application5/core/app_export.dart';
-import 'package:steve_s_application5/presentation/termsandconditions_screen/models/termsandconditions_model.dart';
+import 'package:tribute/core/app_export.dart';
+import 'package:tribute/presentation/termsandconditions_screen/models/termsandconditions_model.dart';
 
 class TermsandconditionsController extends GetxController {
   Rx<TermsandconditionsModel> termsandconditionsModelObj =

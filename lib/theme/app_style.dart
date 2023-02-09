@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:steve_s_application5/core/app_export.dart';
+import 'package:tribute/core/app_export.dart';
 
 class AppStyle {
   static TextStyle txtPoppinsMedium12Gray9007e = TextStyle(
@@ -36,15 +36,6 @@ class AppStyle {
     ),
     fontFamily: 'Poppins',
     fontWeight: FontWeight.w500,
-  );
-
-  static TextStyle txtPoppinsRegular12Black9007e = TextStyle(
-    color: ColorConstant.black9007e,
-    fontSize: getFontSize(
-      12,
-    ),
-    fontFamily: 'Poppins',
-    fontWeight: FontWeight.w400,
   );
 
   static TextStyle txtPoppinsRegular14 = TextStyle(
@@ -84,7 +75,7 @@ class AppStyle {
   );
 
   static TextStyle txtPoppinsRegular12 = TextStyle(
-    color: ColorConstant.gray9007e,
+    color: ColorConstant.black9007e,
     fontSize: getFontSize(
       12,
     ),
@@ -134,6 +125,15 @@ class AppStyle {
       16,
     ),
     fontFamily: 'Roboto',
+    fontWeight: FontWeight.w400,
+  );
+
+  static TextStyle txtPoppinsRegular12Gray9007e = TextStyle(
+    color: ColorConstant.gray9007e,
+    fontSize: getFontSize(
+      12,
+    ),
+    fontFamily: 'Poppins',
     fontWeight: FontWeight.w400,
   );
 

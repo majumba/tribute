@@ -2,7 +2,7 @@ import '../home_screen/widgets/home_item_widget.dart';
 import 'controller/home_controller.dart';
 import 'models/home_item_model.dart';
 import 'package:flutter/material.dart';
-import 'package:steve_s_application5/core/app_export.dart';
+import 'package:tribute/core/app_export.dart';
 
 class HomeScreen extends GetWidget<HomeController> {
   @override

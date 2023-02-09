@@ -1,5 +1,5 @@
-import 'package:steve_s_application5/core/app_export.dart';
-import 'package:steve_s_application5/data/apiClient/api_client.dart';
+import 'package:tribute/core/app_export.dart';
+import 'package:tribute/data/apiClient/api_client.dart';
 
 class InitialBindings extends Bindings {
   @override

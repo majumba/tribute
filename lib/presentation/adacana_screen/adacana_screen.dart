@@ -1,6 +1,6 @@
 import 'controller/adacana_controller.dart';
 import 'package:flutter/material.dart';
-import 'package:steve_s_application5/core/app_export.dart';
+import 'package:tribute/core/app_export.dart';
 
 class AdacanaScreen extends GetWidget<AdacanaController> {
   @override
@@ -27,6 +27,6 @@ class AdacanaScreen extends GetWidget<AdacanaController> {
   }
 
   onTapImgLogo() {
-    Get.toNamed(AppRoutes.loginOrSignupScreen);
+// TODO: implement Actions
   }
 }

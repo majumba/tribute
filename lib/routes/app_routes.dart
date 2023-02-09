@@ -1,35 +1,31 @@
-import 'package:steve_s_application5/presentation/adacana_screen/adacana_screen.dart';
-import 'package:steve_s_application5/presentation/adacana_screen/binding/adacana_binding.dart';
-import 'package:steve_s_application5/presentation/login_or_signup_screen/login_or_signup_screen.dart';
-import 'package:steve_s_application5/presentation/login_or_signup_screen/binding/login_or_signup_binding.dart';
-import 'package:steve_s_application5/presentation/signup_screen/signup_screen.dart';
-import 'package:steve_s_application5/presentation/signup_screen/binding/signup_binding.dart';
-import 'package:steve_s_application5/presentation/login_screen/login_screen.dart';
-import 'package:steve_s_application5/presentation/login_screen/binding/login_binding.dart';
-import 'package:steve_s_application5/presentation/forgot_password_screen/forgot_password_screen.dart';
-import 'package:steve_s_application5/presentation/forgot_password_screen/binding/forgot_password_binding.dart';
-import 'package:steve_s_application5/presentation/home_screen/home_screen.dart';
-import 'package:steve_s_application5/presentation/home_screen/binding/home_binding.dart';
-import 'package:steve_s_application5/presentation/personality_screen/personality_screen.dart';
-import 'package:steve_s_application5/presentation/personality_screen/binding/personality_binding.dart';
-import 'package:steve_s_application5/presentation/work_today_screen/work_today_screen.dart';
-import 'package:steve_s_application5/presentation/work_today_screen/binding/work_today_binding.dart';
-import 'package:steve_s_application5/presentation/wish_list_screen/wish_list_screen.dart';
-import 'package:steve_s_application5/presentation/wish_list_screen/binding/wish_list_binding.dart';
-import 'package:steve_s_application5/presentation/settings_screen/settings_screen.dart';
-import 'package:steve_s_application5/presentation/settings_screen/binding/settings_binding.dart';
-import 'package:steve_s_application5/presentation/language_screen/language_screen.dart';
-import 'package:steve_s_application5/presentation/language_screen/binding/language_binding.dart';
-import 'package:steve_s_application5/presentation/termsandconditions_screen/termsandconditions_screen.dart';
-import 'package:steve_s_application5/presentation/termsandconditions_screen/binding/termsandconditions_binding.dart';
-import 'package:steve_s_application5/presentation/app_navigation_screen/app_navigation_screen.dart';
-import 'package:steve_s_application5/presentation/app_navigation_screen/binding/app_navigation_binding.dart';
+import 'package:tribute/presentation/adacana_screen/adacana_screen.dart';
+import 'package:tribute/presentation/adacana_screen/binding/adacana_binding.dart';
+import 'package:tribute/presentation/signup_screen/signup_screen.dart';
+import 'package:tribute/presentation/signup_screen/binding/signup_binding.dart';
+import 'package:tribute/presentation/login_screen/login_screen.dart';
+import 'package:tribute/presentation/login_screen/binding/login_binding.dart';
+import 'package:tribute/presentation/forgot_password_screen/forgot_password_screen.dart';
+import 'package:tribute/presentation/forgot_password_screen/binding/forgot_password_binding.dart';
+import 'package:tribute/presentation/home_screen/home_screen.dart';
+import 'package:tribute/presentation/home_screen/binding/home_binding.dart';
+import 'package:tribute/presentation/personality_screen/personality_screen.dart';
+import 'package:tribute/presentation/personality_screen/binding/personality_binding.dart';
+import 'package:tribute/presentation/work_today_screen/work_today_screen.dart';
+import 'package:tribute/presentation/work_today_screen/binding/work_today_binding.dart';
+import 'package:tribute/presentation/wish_list_screen/wish_list_screen.dart';
+import 'package:tribute/presentation/wish_list_screen/binding/wish_list_binding.dart';
+import 'package:tribute/presentation/settings_screen/settings_screen.dart';
+import 'package:tribute/presentation/settings_screen/binding/settings_binding.dart';
+import 'package:tribute/presentation/language_screen/language_screen.dart';
+import 'package:tribute/presentation/language_screen/binding/language_binding.dart';
+import 'package:tribute/presentation/termsandconditions_screen/termsandconditions_screen.dart';
+import 'package:tribute/presentation/termsandconditions_screen/binding/termsandconditions_binding.dart';
+import 'package:tribute/presentation/app_navigation_screen/app_navigation_screen.dart';
+import 'package:tribute/presentation/app_navigation_screen/binding/app_navigation_binding.dart';
 import 'package:get/get.dart';
 
 class AppRoutes {
   static const String adacanaScreen = '/adacana_screen';
-
-  static const String loginOrSignupScreen = '/login_or_signup_screen';
 
   static const String signupScreen = '/signup_screen';
 
@@ -61,13 +57,6 @@ class AppRoutes {
       page: () => AdacanaScreen(),
       bindings: [
         AdacanaBinding(),
-      ],
-    ),
-    GetPage(
-      name: loginOrSignupScreen,
-      page: () => LoginOrSignupScreen(),
-      bindings: [
-        LoginOrSignupBinding(),
       ],
     ),
     GetPage(

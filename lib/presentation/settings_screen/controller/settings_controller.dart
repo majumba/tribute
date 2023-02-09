@@ -1,5 +1,5 @@
-import 'package:steve_s_application5/core/app_export.dart';
-import 'package:steve_s_application5/presentation/settings_screen/models/settings_model.dart';
+import 'package:tribute/core/app_export.dart';
+import 'package:tribute/presentation/settings_screen/models/settings_model.dart';
 import 'package:flutter/material.dart';
 
 class SettingsController extends GetxController {

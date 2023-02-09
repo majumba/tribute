@@ -1,8 +1,8 @@
 import 'controller/settings_controller.dart';
 import 'package:flutter/material.dart';
-import 'package:steve_s_application5/core/app_export.dart';
-import 'package:steve_s_application5/widgets/custom_button.dart';
-import 'package:steve_s_application5/widgets/custom_text_form_field.dart';
+import 'package:tribute/core/app_export.dart';
+import 'package:tribute/widgets/custom_button.dart';
+import 'package:tribute/widgets/custom_text_form_field.dart';
 
 class SettingsScreen extends GetWidget<SettingsController> {
   @override

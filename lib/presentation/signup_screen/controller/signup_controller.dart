@@ -1,5 +1,5 @@
-import 'package:steve_s_application5/core/app_export.dart';
-import 'package:steve_s_application5/presentation/signup_screen/models/signup_model.dart';
+import 'package:tribute/core/app_export.dart';
+import 'package:tribute/presentation/signup_screen/models/signup_model.dart';
 import 'package:flutter/material.dart';
 
 class SignupController extends GetxController {
